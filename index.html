@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="generator.css">
+</head>
+<body>
+    <div>
+        <form>
+            <h2>Generator lozinke</h2>
+            <p>Klikni na dugme kako bi generisao lozinku.</p>
+            <p>Lozinka mora da sadrži:</p>
+            <ul>
+                <li>najmanje 8 karaktera</li>
+                <li>najviše 15 karaktera</li>
+                <li>bar jedno malo slovo</li>
+                <li>bar jedno veliko slovo</li>
+                <li>bar jednu cifru</li>
+                <li>bar jedan specijalan znak</li>
+            </ul>
+            <input type="button" value="Generiši lozinku"><br><br>
+            <input type="text" id="password" readonly>
+            <p id="p1">Lozinka ima <span id="brojKaraktera"></span> karaktera i sadrži:</p>
+            <ul id="spisakKaraktera">
+                <li>malih slova: <span id="brojMalihSlova"></span></li>
+                <li>velikih slova: <span id="brojVelikihSlova"></span></li>
+                <li>cifara: <span id="brojCifara"></span></li>
+                <li>specijalnih znakova: <span id="brojSpecijalnihZnakova"></span></li>
+            </ul>
+        </form>
+    </div>
+    <script src="generator.js"></script>
+</body>
+</html>

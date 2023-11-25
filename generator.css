@@ -1,0 +1,21 @@
+div { border: 1px solid darkblue;
+      background-color: lightcyan;
+      margin: auto;
+      padding: 10px 10px 10px 30px;
+      width: 350px;
+      margin-top: 100px; }
+
+[type="button"] { width: 300px;
+                  height: 35px;
+                  font-size: 18px;
+                  background-color: #a6e9b2;
+                  font-weight: bold; }
+
+[type="text"] { width: 293px;
+                height: 30px;
+                font-size: 22px; }
+
+#p1 { display: none; }
+
+#spisakKaraktera { display: none; }
+
