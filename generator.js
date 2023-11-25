@@ -42,5 +42,7 @@ function generisiLozinku() {
         
         let brojSpecijalnihZnakova = lozinka.value.match(patternSpecijalniZnaci || []).length;
         document.getElementById("brojSpecijalnihZnakova").innerHTML = brojSpecijalnihZnakova;
+
+        dugme.disabled = true;
     }
 }
